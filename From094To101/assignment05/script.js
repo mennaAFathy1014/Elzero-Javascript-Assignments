@@ -4,6 +4,6 @@ console.log(elements);
 
 for(i=0;i<elements.length;i++){
     elements[i].onclick = function(){
-        console.log(elements[i]);
+        console.log(`This Is ${elements[i].nodeName.toLocaleLowerCase()}`);
     }
 }
