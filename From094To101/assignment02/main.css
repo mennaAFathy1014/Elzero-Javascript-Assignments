@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+.container input{
+    border-color: #ccc;
+    color: #eee;
+}
+.container>div {
+    width: 100%;
+    padding: 0 10px;
+    margin: 20px;
+    font-weight: lighter;
+    background-color: #e4e4e4;
+}
+h2{
+    font-weight: 200;
+}
+p{
+    text-align: center;
+}
+.boxes{
+    display:flex;
+    flex-wrap: wrap;
+}
+div.box{
+    background-color: #fc5707;
+    color: white;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript</title>
+    <script>
+        window.onload = function() {
+            let links = document.querySelectorAll('a');
+            console.log(links);
+            for(i=0;i<links.length;i++){
+                if(links[i].className == "open" && links[i].innerHTML == "Elzero"){
+                    open(links[i]);
+                }
+            }
+        };
+    </script>
+  </head>
+  <body>
+    <a class="open" href="https://google.com">Google</a>
+    <a class="open" href="https://elzero.org">Elzero</a>
+    <a class="not" href="https://facebook.com">Facebook</a>
+    <a class="linked" href="https://linkedin.com">Elzero</a>
+    <script src="./script.js">
+             
+    </script>
+  </body>
+</html>
