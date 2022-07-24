@@ -14,7 +14,16 @@
 
 
 let myArray = ["E", "l", "z", ["e", "r"], "o"];
-let flatened = myArray.reduce(function(acc,current){
-    return ;
-});
-console.log(flatened)
+let flatArr = myArray.reduce(function(acc,current){
+    if(Array.isArray(current)){
+        let a = "";
+        for (let i = 0; i < current.length; i++) {
+            a+=current[i];
+        }
+        return acc+a;
+
+    }else{
+        return acc.concat(current);
+    }
+})
+console.log(flatArr);
