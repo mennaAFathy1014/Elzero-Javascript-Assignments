@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experiment{
+    width: 20rem;
+    padding: 1.25rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+section select{
+    margin-block: 0.5rem;
+}
